@@ -11,7 +11,7 @@ plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'SimHei', 'Arial Unicode M
 plt.rcParams['axes.unicode_minus'] = False
 
 # 读取数据（路径改成你自己的）
-df = pd.read_csv(r"C:\python123\SampleSuperstore.csv", encoding='latin-1')
+df = pd.read_csv(r"SampleSuperstore.csv", encoding='latin-1')
 
 # 查看数据基本情况
 print("数据形状：", df.shape)
